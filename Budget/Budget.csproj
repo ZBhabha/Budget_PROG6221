@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="depositphotos_79779102-stock-photo-toy-car-money-documents.jpg" />
+    <None Remove="download %2810%29.jpg" />
+    <None Remove="download %289%29.jpg" />
+    <None Remove="new-health-budget.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="depositphotos_79779102-stock-photo-toy-car-money-documents.jpg" />
+    <Resource Include="download (10).jpg" />
+    <Resource Include="download (9).jpg" />
+    <Resource Include="new-health-budget.jpg" />
+  </ItemGroup>
+
+</Project>
